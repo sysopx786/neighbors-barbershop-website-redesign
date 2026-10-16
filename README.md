@@ -80,6 +80,10 @@ Left out on purpose: old service descriptions, Monday by appointment, Tim, froze
 
 Non-text checks against the old site: business schema now uses an image that exists (`storefront-day`), price range $5–$75, and the shop email. Directions open the Google listing (as on the old site), "See on Google" / "Read all on Google" open the Google reviews panel, map zoom matches the old site, About/Media/Tips/Book use the old site's search descriptions (EN/ES/PT), and a black-and-white home-screen icon + web manifest were added (`apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `site.webmanifest`).
 
+## Fourth pass (2026-10-16)
+
+Spanish/Portuguese text re-checked against the old site: complete (remaining differences are owner decisions or formatting only). Visual pass of 18 pages on phone and desktop, dark and light: fixed photos not filling their frame when the photo shape differs from the frame (Justin's bio photo), and the phone bottom bar wrapping "Cómo llegar" / "Como chegar".
+
 ## People in photos
 
 Justin Kyle (owner), Rocco (apprentice), CJ Bono (barber, @bonosthebarber), Rupert (barber). Names confirmed by Mujtaba, 2026-10-16. One barber in the background of the Rocco selfies is unnamed. Parent permission confirmed for photos of teens.
