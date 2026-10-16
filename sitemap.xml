@@ -1,15 +1,489 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.theneighborsbarber.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/services.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/gallery.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/reviews.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/faq.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/future.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/free-haircuts.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/contact.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/privacy.html</loc><priority>0.3</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/terms.html</loc><priority>0.3</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/refund.html</loc><priority>0.3</priority></url>
-  <url><loc>https://www.theneighborsbarber.com/cookies.html</loc><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://www.theneighborsbarber.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/about.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/about.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/about.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/traditional.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/traditional.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/traditional.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/traditional.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/traditional.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/traditional.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/traditional.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/skin-fade.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/skin-fade.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/skin-fade.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/skin-fade.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/skin-fade.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/skin-fade.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/skin-fade.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/kids.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/kids.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/kids.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/kids.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/kids.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/kids.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/kids.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/traditional-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/traditional-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/traditional-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/traditional-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/traditional-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/traditional-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/traditional-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/fade-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/fade-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/fade-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/fade-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/fade-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/fade-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/fade-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/head-shave.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/head-shave.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/head-shave.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/head-shave.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/head-shave.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/head-shave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/head-shave.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/head-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/head-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/head-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/head-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/head-beard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/head-beard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/head-beard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/wax.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/wax.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/wax.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/wax.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/wax.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/wax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/wax.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/services/standard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/standard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/services/standard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/standard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/services/standard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/standard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/standard.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/gallery.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/gallery.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/gallery.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/reviews.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/reviews.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/reviews.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/reviews.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/reviews.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/reviews.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/media.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/media.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/media.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/media.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/media.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/media.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/media.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/media.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/media.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/media.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/media.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/media.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/media.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/media.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/media.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/press.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/press.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/press.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/press.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/press.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/press.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/tips.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/tips.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/tips.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/tips.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/tips.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/tips.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/book.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/book.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/book.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/book.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/book.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/book.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/book.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/book.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/book.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/book.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/book.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/book.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/book.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/book.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/book.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/faq.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/faq.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/faq.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/contact.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/contact.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/contact.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/free-haircuts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/free-haircuts.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/free-haircuts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/free-haircuts.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/free-haircuts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/free-haircuts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/free-haircuts.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/future.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/future.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/future.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/future.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/future.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/future.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/future.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/future.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/future.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/future.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/future.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/future.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/future.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/future.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/future.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/privacy.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/privacy.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/privacy.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/terms.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/terms.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/terms.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/refund.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/refund.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/refund.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/refund.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/refund.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/refund.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/cookies.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/cookies.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/cookies.html"/>
+  </url>
 </urlset>

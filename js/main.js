@@ -3,6 +3,25 @@
   "use strict";
 
   var doc = document.documentElement;
+  var LANG = (doc.getAttribute("lang") || "en").slice(0, 2);
+  var STR = {
+    en: { toLight: "Switch to light mode", toDark: "Switch to dark mode", openMenu: "Open menu", closeMenu: "Close menu",
+          openNow: "Open now \u2014 closes 6 PM", opensToday: "Closed \u2014 opens today 9 AM", opensTomorrow: "Closed \u2014 opens tomorrow 9 AM",
+          opensDay: "Closed \u2014 opens {d} 9 AM", days: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+          review1: " review shown", reviewN: " reviews shown", q1: " question matches", qN: " questions match", questions: " questions",
+          openFor: "We\u2019ve been open for {n} days \u00b7 since June 13, 2026", cookie: 'This site uses essential functionality and third-party services (Google Fonts/Maps, Square). See our <a href="{u}">Cookie Policy</a>.', gotIt: "Got it" },
+    es: { toLight: "Cambiar a modo claro", toDark: "Cambiar a modo oscuro", openMenu: "Abrir men\u00fa", closeMenu: "Cerrar men\u00fa",
+          openNow: "Abierto ahora \u2014 cierra a las 6 p. m.", opensToday: "Cerrado \u2014 abre hoy a las 9 a. m.", opensTomorrow: "Cerrado \u2014 abre ma\u00f1ana a las 9 a. m.",
+          opensDay: "Cerrado \u2014 abre el {d} a las 9 a. m.", days: ["domingo", "lunes", "martes", "mi\u00e9rcoles", "jueves", "viernes", "s\u00e1bado"],
+          review1: " rese\u00f1a mostrada", reviewN: " rese\u00f1as mostradas", q1: " pregunta coincide con", qN: " preguntas coinciden con", questions: " preguntas",
+          openFor: "Llevamos {n} d\u00edas abiertos \u00b7 desde el 13 de junio de 2026", cookie: 'Este sitio usa funciones esenciales y servicios de terceros (Google Fonts/Maps, Square). Consulta nuestra <a href="{u}">Pol\u00edtica de cookies</a>.', gotIt: "Entendido" },
+    pt: { toLight: "Mudar para o modo claro", toDark: "Mudar para o modo escuro", openMenu: "Abrir menu", closeMenu: "Fechar menu",
+          openNow: "Aberto agora \u2014 fecha \u00e0s 18h", opensToday: "Fechado \u2014 abre hoje \u00e0s 9h", opensTomorrow: "Fechado \u2014 abre amanh\u00e3 \u00e0s 9h",
+          opensDay: "Fechado \u2014 abre {d} \u00e0s 9h", days: ["domingo", "segunda", "ter\u00e7a", "quarta", "quinta", "sexta", "s\u00e1bado"],
+          review1: " avalia\u00e7\u00e3o exibida", reviewN: " avalia\u00e7\u00f5es exibidas", q1: " pergunta corresponde a", qN: " perguntas correspondem a", questions: " perguntas",
+          openFor: "Estamos abertos h\u00e1 {n} dias \u00b7 desde 13 de junho de 2026", cookie: 'Este site usa funcionalidades essenciais e servi\u00e7os de terceiros (Google Fonts/Maps, Square). Veja nossa <a href="{u}">Pol\u00edtica de cookies</a>.', gotIt: "Entendi" }
+  };
+  var S = STR[LANG] || STR.en;
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function store(key, value) {
@@ -24,7 +43,7 @@
     if (meta) meta.setAttribute("content", theme === "light" ? "#FFFFFF" : "#000000");
     document.querySelectorAll(".theme-toggle").forEach(function (btn) {
       var toLight = theme === "dark";
-      btn.setAttribute("aria-label", toLight ? "Switch to light mode" : "Switch to dark mode");
+      btn.setAttribute("aria-label", toLight ? S.toLight : S.toDark);
       btn.setAttribute("aria-pressed", theme === "light" ? "true" : "false");
     });
   }
@@ -74,7 +93,7 @@
     var setMenu = function (open) {
       menu.hidden = !open;
       menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
-      menuBtn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      menuBtn.setAttribute("aria-label", open ? S.closeMenu : S.openMenu);
       document.body.classList.toggle("menu-open", open);
       if (open) {
         var first = menu.querySelector("a");
@@ -92,7 +111,7 @@
       trap(e, nodes);
     });
     window.addEventListener("resize", function () {
-      if (window.innerWidth >= 1100 && !menu.hidden) setMenu(false);
+      if (window.innerWidth >= 1280 && !menu.hidden) setMenu(false);
     });
   }
 
@@ -137,13 +156,13 @@
     var open = isOpenDay && now.mins >= OPEN_MIN && now.mins < CLOSE_MIN;
     var text;
     if (open) {
-      text = "Open now — closes 6 PM";
+      text = S.openNow;
     } else if (isOpenDay && now.mins < OPEN_MIN) {
-      text = "Closed — opens today 9 AM";
+      text = S.opensToday;
     } else {
       var d = now.day;
       do { d = (d + 1) % 7; } while (OPEN_DAYS.indexOf(d) === -1);
-      text = "Closed — opens " + (d === (now.day + 1) % 7 ? "tomorrow" : DAYS[d]) + " 9 AM";
+      text = d === (now.day + 1) % 7 ? S.opensTomorrow : S.opensDay.replace("{d}", S.days[d]);
     }
     document.querySelectorAll("[data-status]").forEach(function (el) {
       el.textContent = text;
@@ -192,7 +211,7 @@
         if (hit) shown++;
       });
       if (reviewEmpty) reviewEmpty.hidden = shown !== 0;
-      if (reviewStatus) reviewStatus.textContent = q ? shown + (shown === 1 ? " review" : " reviews") + " shown" : "";
+      if (reviewStatus) reviewStatus.textContent = shown + (shown === 1 ? S.review1 : S.reviewN);
     };
     reviewInput.addEventListener("input", filterReviews);
     reviewInput.addEventListener("search", filterReviews);
@@ -224,8 +243,8 @@
       if (faqClear) faqClear.hidden = !q;
       if (faqStatus) {
         faqStatus.textContent = q
-          ? shown + (shown === 1 ? " question matches" : " questions match") + " “" + faqInput.value.trim() + "”"
-          : total + " questions";
+          ? shown + (shown === 1 ? S.q1 : S.qN) + " “" + faqInput.value.trim() + "”"
+          : total + S.questions;
       }
     };
     faqInput.addEventListener("input", function () { window.clearTimeout(timer); timer = window.setTimeout(runFaq, 120); });
@@ -289,6 +308,31 @@
     });
   }
 
+  /* ---------- Days open counter ---------- */
+  document.querySelectorAll("[data-days-open]").forEach(function (el) {
+    var since = Date.UTC(2026, 5, 13);
+    var n = Math.floor((Date.now() - since) / 86400000);
+    if (n >= 0) el.textContent = S.openFor.replace("{n}", n);
+  });
+
+  /* ---------- Before / after slider ---------- */
+  document.querySelectorAll(".compare").forEach(function (fig) {
+    var range = fig.querySelector(".compare-range");
+    var after = fig.querySelector(".compare-after");
+    if (!range || !after) return;
+    fig.classList.add("is-live");
+    var set = function () { after.style.clipPath = "inset(0 0 0 " + range.value + "%)"; fig.style.setProperty("--pos", range.value + "%"); };
+    range.addEventListener("input", set);
+    set();
+  });
+
+  /* ---------- Desktop "More" menu: close on outside click / Esc ---------- */
+  var more = document.querySelector(".nav-more details");
+  if (more) {
+    document.addEventListener("click", function (e) { if (more.open && !more.contains(e.target)) more.open = false; });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && more.open) { more.open = false; more.querySelector("summary").focus(); } });
+  }
+
   /* ---------- Legal TOC active state ---------- */
   var tocLinks = document.querySelectorAll(".toc a");
   if (tocLinks.length && "IntersectionObserver" in window) {
@@ -312,7 +356,9 @@
     note.className = "cookie-notice";
     note.setAttribute("role", "region");
     note.setAttribute("aria-label", "Cookie notice");
-    note.innerHTML = '<span>This site uses essential functionality and third-party services (Google Fonts/Maps, Square). See our <a href="cookies.html">Cookie Policy</a>.</span><button type="button" class="btn">Got it</button>';
+    var home = document.querySelector(".wordmark");
+    var cookieUrl = home ? home.getAttribute("href").replace(/index\.html$/, "cookies.html") : "cookies.html";
+    note.innerHTML = "<span>" + S.cookie.replace("{u}", cookieUrl) + '</span><button type="button" class="btn">' + S.gotIt + "</button>";
     document.body.appendChild(note);
     note.querySelector("button").addEventListener("click", function () {
       store("cookie-notice-dismissed", "1");
