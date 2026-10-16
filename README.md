@@ -72,7 +72,9 @@ css/styles.css   js/main.js   images/   videos/   sitemap.xml   robots.txt   .no
 
 Every text block of all 23 old pages, in EN/ES/PT, re-checked against the new site. Added: Media line "Call the shop or stop by…", footer tagline and "Spring City · Est. 2026", live open/closed status in every footer, "Walk in if a chair is open, or lock a time on Square" on Home, storefront caption "The bench is for everyone", Services group headings (Cuts / Beard & shave / Detail work) and "Prices are the ones posted in the shop", old Tips link labels and "Also on the board" lists on service pages, Back to top on Reviews and FAQ, Privacy/Cookies updated for the embedded Square page, the Google map, review quotes, and the self-hosted video. ES/PT 2040 headings now use the old site's translations.
 
-Left out on purpose: old service descriptions, Monday by appointment, Tim, the 10-service board on Home (redesign shows 3 + full menu link), frozen review dates ("4 months ago"), the 2040 "not a photo" caption, and old headings the redesign replaced.
+Follow-up (owner): Home now lists all 10 services (redesign descriptions). The 2040 hero uses the old site's picture (`future-2040-alt`), with no caption.
+
+Left out on purpose: old service descriptions, Monday by appointment, Tim, frozen review dates ("4 months ago"), the 2040 "not a photo" caption, and old headings the redesign replaced.
 
 ## People in photos
 
@@ -104,7 +106,7 @@ Justin Kyle (owner), Rocco (apprentice), CJ Bono (barber, @bonosthebarber), Rupe
 | Lighthouse mobile (local, 7 pages) | Perf 94–100, A11y 100, BP 96, SEO 100 | BP deduction is Google Fonts blocked in the test sandbox. Rerun PageSpeed Insights on the live URL |
 | Desktop browser reviewed | Passed | Headless Chromium |
 | Mobile browser reviewed | Passed | Headless Chromium 390×844, touch emulation |
-| Live public website verified | Not verified | Check after GitHub Pages deploys |
+| Live public website verified | Passed | Spot-checked About (ES/PT), Press, Reviews, Gallery, Media, Services (ES), and the Home service list on the GitHub Pages URL after deploy |
 | Physical Android device | Not tested | |
 | Native-speaker translation review | Not done | |
 | SEO and indexing | Not verified | Canonicals, hreflang, sitemap (81 URLs), robots present. Not submitted to Search Console |
