@@ -14,7 +14,7 @@ Live preview: https://sysopx786.github.io/neighbors-barbershop-website-redesign/
 | Languages | English, Spanish (`/es/`), Portuguese (`/pt/`). Switcher in the header and mobile menu keeps the same page. `hreflang` on every page and in the sitemap |
 | Type | Barlow Condensed 600/700 (headings, buttons, prices) + Inter 400/500/600 (body). Tabular numbers for prices and hours |
 | Spacing | Sections 64px mobile / 128px desktop |
-| Photos | 38 photos + 1 video, all grayscale (WebP + JPG at 800px and up to 1600px; MP4 re-encoded grayscale). No crops or retouching |
+| Photos | 35 photos + 1 video, all grayscale (WebP + JPG at 800px and up to 1600px; MP4 re-encoded grayscale). No crops or retouching |
 | Hero | Phone: shop interior (portrait). Desktop: Justin beard trim (landscape) |
 | Motion | One fade-and-rise on scroll; header shrinks after 40px. All off under reduced motion |
 | Navigation | Desktop (≥1280px): The shop, Services, Gallery, Reviews, Tips, FAQ, More (Media, Press, 2040, Free Cuts), Visit. Below 1280px: numbered full-screen menu with all 11 |
@@ -32,7 +32,7 @@ Live preview: https://sysopx786.github.io/neighbors-barbershop-website-redesign/
 | Home | `index.html` |
 | The shop (story, what sets it apart, barber bios, mayor quote, grand opening, press teaser) | `about.html` |
 | Services menu + 10 service pages (description, 40 FAQs each, "Also on the board"; before/after slider on Traditional) | `services.html`, `services/*.html` |
-| Gallery (36 photos, lightbox) | `gallery.html` |
+| Gallery (33 photos, lightbox) | `gallery.html` |
 | Reviews (all Google reviews with reviewer details, services, owner response) | `reviews.html` |
 | Media (mayor video, Rocco's first beard trim, school haircuts) | `media.html` |
 | Press (full Spring-Ford Press article) | `press.html` |
@@ -57,7 +57,7 @@ css/styles.css   js/main.js   images/   videos/   sitemap.xml   robots.txt   .no
 - Owner decisions (2026-10-16):
   - **Monday is closed.** CJ's "Monday by appointment" lines were removed from his bio and the Book page.
   - **Service descriptions** use the redesign wording ("A clean, tailored, balanced haircut…"), not the old site's.
-  - **Tim / Tim Graham removed.** Sentences naming him were cut from reviews and the press article, each cut marked "…". Reviews that were only about him (5) were dropped, leaving 108 of 113. Reviewers who are themselves named Tim (Tim Fritz, Tim Stiles) stay.
+  - **Tim / Tim Graham removed.** Sentences naming him were cut from reviews and the press article, each cut marked "…". Reviews that were only about him (5) were dropped, leaving 108 of 113. Reviewers who are themselves named Tim (Tim Fritz, Tim Stiles) stay. Tim's 3 photos from the old site (barber in the Nike shirt) were removed; he no longer works there.
   - **Full press article** published, with a link to the original.
   - **Old-site photos and video** added under their original names, without AI labels. The before/after slider keeps its caption that the images are an AI example, not a customer result.
 - Other deliberate changes:
@@ -80,7 +80,6 @@ Justin Kyle (owner), Rocco (apprentice), CJ Bono (barber, @bonosthebarber), Rupe
 - [ ] Free back-to-school haircuts copy says "Starting Tuesday, August 18." Confirm the offer is still running.
 - [ ] Open/closed status uses fixed hours (Tue–Sat 9–6, America/New_York). It does not know holidays or one-off closures.
 - [ ] Owner name: source and press say "Justin Kyle"; his Facebook profile shows "Justin Barberro". Site uses Justin Kyle.
-- [ ] Old-site alt text calls the barber in the Nike shirt (`justin-beard`, `shop-4`, `ig-2`) "Justin". Here they're described as "Barber". Confirm who he is.
 - [ ] Set the Square booking page brand color to black (Square dashboard). The embedded Square page shows Square's colors.
 - [ ] Canonical URLs point to `www.theneighborsbarber.com`. Open Graph images point to this GitHub Pages URL so link previews work during the pitch. Switch `og:image` to the real domain at launch.
 - [ ] Google "G" mark uses the four-color logo from Google's Sign-In branding. Check it against Google's current brand guidelines before launch.
@@ -90,7 +89,7 @@ Justin Kyle (owner), Rocco (apprentice), CJ Bono (barber, @bonosthebarber), Rupe
 
 | Check | Status | Notes |
 |---|---|---|
-| Source code updated | Passed | 81 pages, CSS, JS, 153 image files (38 photos × 4 + video poster), 1 video |
+| Source code updated | Passed | 81 pages, CSS, JS, 141 image files (35 photos × 4 + video poster), 1 video |
 | Link crawl | Passed | 7,446 internal links, images, and anchors across 81 pages; 0 broken |
 | Automated tests | Passed | 85 functional checks: theme, menu, More menu, language switch, FAQ search, review filter, lightbox, swipe, slider, map, video, Square embed, cookie notice, ES/PT script text, no-JS, no horizontal overflow on 23 pages |
 | Owner decisions applied | Passed | No barber "Tim" anywhere; no "Monday by appointment"; redesign service wording on all pages |
