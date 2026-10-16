@@ -68,6 +68,12 @@ css/styles.css   js/main.js   images/   videos/   sitemap.xml   robots.txt   .no
   - Spanish/Portuguese for pages that existed on the old site come from the old site's translations.
   - Everything else (redesign copy, Free Cuts, Visit, Terms, Refund, Cookies, alt text, UI) was translated for this build. **Needs a native-speaker check**, legal pages above all. Translated legal pages say the English version governs.
 
+## Second comparison pass (2026-10-16)
+
+Every text block of all 23 old pages, in EN/ES/PT, re-checked against the new site. Added: Media line "Call the shop or stop by…", footer tagline and "Spring City · Est. 2026", live open/closed status in every footer, "Walk in if a chair is open, or lock a time on Square" on Home, storefront caption "The bench is for everyone", Services group headings (Cuts / Beard & shave / Detail work) and "Prices are the ones posted in the shop", old Tips link labels and "Also on the board" lists on service pages, Back to top on Reviews and FAQ, Privacy/Cookies updated for the embedded Square page, the Google map, review quotes, and the self-hosted video. ES/PT 2040 headings now use the old site's translations.
+
+Left out on purpose: old service descriptions, Monday by appointment, Tim, the 10-service board on Home (redesign shows 3 + full menu link), frozen review dates ("4 months ago"), the 2040 "not a photo" caption, and old headings the redesign replaced.
+
 ## People in photos
 
 Justin Kyle (owner), Rocco (apprentice), CJ Bono (barber, @bonosthebarber), Rupert (barber). Names confirmed by Mujtaba, 2026-10-16. One barber in the background of the Rocco selfies is unnamed. Parent permission confirmed for photos of teens.
