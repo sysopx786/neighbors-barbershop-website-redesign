@@ -448,6 +448,10 @@ figcaption, .caption {
 .page-head { position: relative; padding: calc(var(--section) * 0.9) 0 calc(var(--section) * 0.6); overflow: hidden; }
 .page-head h1 { max-width: 14ch; }
 .page-head .lede { margin-top: 24px; }
+.svc-body { max-width: 62ch; margin-top: 20px; }
+.svc-body p { color: var(--text-muted); font-size: 17px; line-height: 1.65; margin: 0 0 16px; }
+.svc-body p:last-child { margin-bottom: 0; }
+@media (min-width: 900px) { .svc-body p { font-size: 18px; } }
 
 /* ---------- Gallery ---------- */
 .masonry { columns: 2; column-gap: 12px; }
