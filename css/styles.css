@@ -566,8 +566,22 @@ figcaption, .caption {
 }
 .lang-switch a:hover { color: var(--text); }
 .lang-switch a[aria-current="true"] { color: var(--text); border-bottom-color: var(--text); }
-.header-actions > .lang-switch { display: none; }
-@media (min-width: 640px) { .header-actions > .lang-switch { display: flex; } }
+@media (max-width: 639px) {
+  .site-header .wrap { gap: 10px; }
+  .header-actions { gap: 6px; }
+  .header-actions > .lang-switch { gap: 0; }
+  .header-actions > .lang-switch a { min-width: 32px; padding: 0 2px; font-size: 12px; letter-spacing: 0.08em; }
+}
+@media (max-width: 399px) {
+  .wordmark { font-size: 21px; letter-spacing: 0.1em; }
+  .header-actions > .lang-switch a { min-width: 28px; }
+}
+@media (max-width: 359px) {
+  .site-header .wrap { padding: 0 12px; gap: 8px; }
+  .wordmark { font-size: 19px; }
+  .header-actions { gap: 4px; }
+  .header-actions > .lang-switch a { min-width: 26px; }
+}
 .lang-switch.is-menu { margin: 0 0 24px; gap: 8px; }
 .lang-switch.is-menu a { min-width: 56px; border: 1px solid var(--line-strong); }
 .lang-switch.is-menu a[aria-current="true"] { border-color: var(--text); }
