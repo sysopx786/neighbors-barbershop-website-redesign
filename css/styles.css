@@ -220,20 +220,21 @@ html:not(.js) .menu-btn { display: none; }
 .mobile-menu {
   position: fixed; inset: 0; z-index: 90;
   background: var(--bg);
-  padding: calc(var(--header-h) + 24px) var(--gutter) 32px;
+  padding: calc(var(--header-h) + 12px) var(--gutter) 32px;
   overflow-y: auto;
   display: flex; flex-direction: column;
 }
 .mobile-menu[hidden] { display: none; }
-.mobile-menu ol { list-style: none; margin: 0 0 32px; padding: 0; border-top: 1px solid var(--line); }
+.mobile-menu ol { list-style: none; margin: 0 0 24px; padding: 0; border-top: 1px solid var(--line); }
 .mobile-menu li { border-bottom: 1px solid var(--line); }
 .mobile-menu ol a {
-  display: flex; align-items: baseline; gap: 18px; padding: 14px 0;
-  font-family: var(--display); font-weight: 700; font-size: clamp(36px, 10vw, 56px);
+  display: flex; align-items: baseline; gap: 14px; padding: 10px 0;
+  font-family: var(--display); font-weight: 700; font-size: clamp(22px, 6vw, 30px);
   line-height: 1; text-transform: uppercase; text-decoration: none;
 }
-.mobile-menu ol a span { font-family: var(--body); font-size: 13px; font-weight: 600; letter-spacing: 0.12em; color: var(--text-muted); }
+.mobile-menu ol a span { font-family: var(--body); font-size: 13px; font-weight: 600; letter-spacing: 0.12em; color: var(--text-muted); min-width: 26px; font-variant-numeric: tabular-nums; }
 .mobile-menu ol a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+@media (max-height: 640px) { .mobile-menu ol a { padding: 7px 0; font-size: 20px; } }
 .mobile-menu .menu-actions { display: grid; gap: 12px; margin-top: auto; }
 .mobile-menu .menu-actions .btn { width: 100%; }
 body.menu-open { overflow: hidden; }
