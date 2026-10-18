@@ -72,13 +72,15 @@
       <div class="wrap">
         <p class="label">El corte</p>
         <div class="grid">
-          <div class="col-5"><h2 id="diff-h">Mira la diferencia.</h2><p class="lede u23">Cabello crecido, y luego un fade al ras recién hecho.</p></div>
+          <div class="col-5"><h2 id="diff-h">Mira la diferencia.</h2><p class="lede u23">Desliza para comparar el cabello crecido con un fade al ras recién hecho.</p></div>
           <div class="col-7">
-            <figure class="compare-pair u2">
-              <div class="pair-grid">
-                <div class="pair-item"><picture><source type="image/webp" srcset="../../images/skin-fade-before-ai-800.webp 800w, ../../images/skin-fade-before-ai-1600.webp 896w" sizes="(min-width: 900px) 260px, 50vw"><img src="../../images/skin-fade-before-ai-800.jpg" srcset="../../images/skin-fade-before-ai-800.jpg 800w, ../../images/skin-fade-before-ai-1600.jpg 896w" sizes="(min-width: 900px) 260px, 50vw" width="896" height="1200" alt="Antes: pelo crecido" loading="lazy" decoding="async"></picture><span class="compare-tag">Antes</span></div>
-                <div class="pair-item"><picture><source type="image/webp" srcset="../../images/skin-fade-after-ai-800.webp 800w, ../../images/skin-fade-after-ai-1600.webp 896w" sizes="(min-width: 900px) 260px, 50vw"><img src="../../images/skin-fade-after-ai-800.jpg" srcset="../../images/skin-fade-after-ai-800.jpg 800w, ../../images/skin-fade-after-ai-1600.jpg 896w" sizes="(min-width: 900px) 260px, 50vw" width="896" height="1200" alt="Después: un fade al ras medio recién hecho" loading="lazy" decoding="async"></picture><span class="compare-tag">Después</span></div>
+            <figure class="compare u2 is-portrait">
+              <div class="compare-stage u39">
+                <div class="compare-before"><picture><source type="image/webp" srcset="../../images/skin-fade-before-ai-800.webp 800w, ../../images/skin-fade-before-ai-1600.webp 896w" sizes="(min-width: 900px) 58vw, 100vw"><img src="../../images/skin-fade-before-ai-1600.jpg" srcset="../../images/skin-fade-before-ai-800.jpg 800w, ../../images/skin-fade-before-ai-1600.jpg 896w" sizes="(min-width: 900px) 58vw, 100vw" width="896" height="1200" alt="Antes: pelo crecido" loading="lazy" decoding="async"></picture><span class="compare-tag">Antes</span></div>
+                <div class="compare-after"><picture><source type="image/webp" srcset="../../images/skin-fade-after-ai-800.webp 800w, ../../images/skin-fade-after-ai-1600.webp 896w" sizes="(min-width: 900px) 58vw, 100vw"><img src="../../images/skin-fade-after-ai-1600.jpg" srcset="../../images/skin-fade-after-ai-800.jpg 800w, ../../images/skin-fade-after-ai-1600.jpg 896w" sizes="(min-width: 900px) 58vw, 100vw" width="896" height="1200" alt="Después: un fade al ras medio recién hecho" loading="lazy" decoding="async"></picture><span class="compare-tag is-after">Después</span></div>
               </div>
+              <label class="visually-hidden" for="compare-range">Comparar antes y después</label>
+              <input class="compare-range" id="compare-range" type="range" min="0" max="100" value="50">
               <figcaption>Ejemplo de peinado generado con IA; no es un resultado real de un cliente.</figcaption>
             </figure>
           </div>

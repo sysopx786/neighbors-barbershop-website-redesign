@@ -706,11 +706,6 @@ html:not(.js) .compare-range { display: none; }
 .compare-tag.is-after { left: auto; right: 12px; }
 .compare-range { width: 100%; margin: 16px 0 0; min-height: 44px; cursor: ew-resize; }
 .compare.is-portrait { max-width: 520px; margin-inline: auto; }
-.compare-pair { max-width: 560px; margin-inline: auto; }
-.pair-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.pair-item { position: relative; aspect-ratio: 896/1200; overflow: hidden; background: var(--surface-2); }
-.pair-item img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.compare-pair figcaption { margin-top: 16px; }
 @media (min-width: 900px) { .col-5 > #diff-h { font-size: clamp(40px, 5.2vw, 72px); } }
 
 /* ---------- Media ---------- */
@@ -839,3 +834,4 @@ html:not(.js) .compare-range { display: none; }
 .u36 { margin-bottom:24px; }
 .u37 { padding-top:16px; }
 .u38 { font-size:clamp(28px,4vw,44px);margin-bottom:24px; }
+.u39 { aspect-ratio:896/1200; }
