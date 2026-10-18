@@ -705,6 +705,8 @@ html:not(.js) .compare-range { display: none; }
 }
 .compare-tag.is-after { left: auto; right: 12px; }
 .compare-range { width: 100%; margin: 16px 0 0; min-height: 44px; cursor: ew-resize; }
+.compare.is-portrait { max-width: 520px; margin-inline: auto; }
+@media (min-width: 900px) { .col-5 > #diff-h { font-size: clamp(40px, 5.2vw, 72px); } }
 
 /* ---------- Media ---------- */
 .video-frame { background: #000000; aspect-ratio: 9 / 16; max-height: 80vh; margin: 0 auto; }
@@ -828,7 +830,8 @@ html:not(.js) .compare-range { display: none; }
 .u32 { padding-bottom:var(--section); }
 .u33 { font-size:clamp(32px,4vw,44px);margin:48px 0 16px; }
 .u34 { padding-top:56px; }
-.u35 { aspect-ratio:1120/836; }
+.u35 { aspect-ratio:896/1195; }
 .u36 { margin-bottom:24px; }
 .u37 { padding-top:16px; }
 .u38 { font-size:clamp(28px,4vw,44px);margin-bottom:24px; }
+.u39 { aspect-ratio:1168/880; }
