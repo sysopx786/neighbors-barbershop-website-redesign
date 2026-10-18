@@ -838,3 +838,12 @@ html:not(.js) .compare-range { display: none; }
 .u37 { padding-top:16px; }
 .u38 { font-size:clamp(28px,4vw,44px);margin-bottom:24px; }
 .u39 { aspect-ratio:896/1200; }
+
+/* Before & After page */
+.ba-grid { display: grid; gap: 96px 48px; }
+@media (min-width: 900px) { .ba-grid { grid-template-columns: 1fr 1fr; } }
+.ba-card { scroll-margin-top: 96px; }
+.ba-card h2 { font-size: clamp(30px, 3.6vw, 44px); margin: 8px 0 8px; }
+.ba-card .compare.is-portrait { max-width: none; margin: 24px 0 0; }
+.ba-card .btn-row { margin-top: 24px; }
+.ba-card .svc-meta { font-size: 20px; margin: 0; color: var(--text-muted); }

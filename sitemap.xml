@@ -252,6 +252,24 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/gallery.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/gallery.html"/>
   </url>
+  <url><loc>https://www.theneighborsbarber.com/before-after.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/before-after.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/es/before-after.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/before-after.html"/>
+  </url>
+  <url><loc>https://www.theneighborsbarber.com/pt/before-after.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/before-after.html"/>
+  </url>
   <url><loc>https://www.theneighborsbarber.com/reviews.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/reviews.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/reviews.html"/>
