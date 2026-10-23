@@ -350,6 +350,53 @@
     Object.keys(byId).forEach(function (id) { var el = document.getElementById(id); if (el) tio.observe(el); });
   }
 
+  /* ---------- Install the app ----------
+     Chrome / Edge / Samsung Internet: the menu item opens the browser's own install prompt.
+     iPhone / iPad: no install prompt exists, so the item shows "Add to Home Screen" steps.
+     Other browsers, or when already installed: the item stays hidden. */
+  (function () {
+    var btns = Array.prototype.slice.call(document.querySelectorAll("[data-install]"));
+    var dlg = document.getElementById("install-dialog");
+    if (!btns.length) return;
+    var mm = window.matchMedia;
+    if ((mm && mm("(display-mode: standalone)").matches) || window.navigator.standalone === true) return;
+    var ios = /iPad|iPhone|iPod/.test(navigator.userAgent || "") || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    var canDialog = !!(dlg && typeof dlg.showModal === "function");
+    var deferred = null;
+    function setShown(on) {
+      btns.forEach(function (b) {
+        b.hidden = !on;
+        var li = b.closest("li");
+        if (li) li.hidden = !on;
+      });
+    }
+    window.addEventListener("beforeinstallprompt", function (e) {
+      e.preventDefault(); // no automatic pop-up; the menu item asks instead
+      deferred = e;
+      setShown(true);
+    });
+    window.addEventListener("appinstalled", function () { deferred = null; setShown(false); });
+    if (ios && canDialog) {
+      setShown(true);
+      // Esc closes only the dialog, not the menu behind it
+      dlg.addEventListener("keydown", function (e) { if (e.key === "Escape") e.stopPropagation(); });
+    }
+    btns.forEach(function (b) {
+      b.addEventListener("click", function () {
+        var more = b.closest("details");
+        if (more) more.open = false;
+        if (deferred) {
+          var ev = deferred;
+          deferred = null;
+          ev.prompt();
+          ev.userChoice.then(function () { setShown(false); }, function () { setShown(false); });
+        } else if (ios && canDialog) {
+          dlg.showModal();
+        }
+      });
+    });
+  })();
+
   /* ---------- Cookie notice ---------- */
   if (store("cookie-notice-dismissed") !== "1") {
     var note = document.createElement("div");
